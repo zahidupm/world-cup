@@ -218,3 +218,36 @@ footer {
     text-align: center;
     padding-bottom: 30px;
 }
+.footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links {
+    text-align: center;
+    display: none;
+}
+
+.footer-links li {
+    display: inline-block;
+    /* background: #fff; */
+    /* padding: 10px 16px; */
+    /* border-radius: 3px; */
+    transition: .3s;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.footer-links li a {
+    padding: 10px 15px;
+    background: #fff;
+    transition: .3s;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.footer-links li:hover a {
+    background: orange;
+    color: #fff;
+}
