@@ -205,6 +205,7 @@ footer {
 .footer-menu li {
     display: inline-block;
     text-align: center;
+    transition: .3s;
 }
 
 .footer-menu li a {
@@ -212,6 +213,10 @@ footer {
     /* text-align: center; */
     color: #767676;
     padding-left: 32px;
+    transition: .3s;
+}
+.footer-menu li:hover a{
+    color: #fff;
 }
 
 .footer-menu {
